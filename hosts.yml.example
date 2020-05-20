@@ -4,12 +4,12 @@ all:
             hosts:
                 server:
                     ansible_connection: ssh
-                    ansible_user: root
-                    ansible_host: 0.0.0.0
+                    ansible_user: raphaelcorbin
+                    ansible_host: 192.168.20.141
                     ansible_port: 22
             vars:
-                mysql_root_password: secret
-                remote_user: deploy
+                mysql_root_password: Crosemont123
+                remote_user: raphaelcorbin
                 site_public: public_html # корневая папка для всех сайтов пользователя
                 web_dir: web # web директория для конкретного сайта. Например, есть домен example.com. Его корневая директория будет: /home/deploy/public_html/example.com/web. Корневые директории прописываются в директивах nginx в папке с ролями, при создании конкретного хоста
                 certbot_email: user@gmail.com
