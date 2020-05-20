@@ -1,6 +1,6 @@
 ---
 -   name: Add Host
-    hosts: site
-    remote_user: root
+    hosts: all
+    remote_user: raphaelcorbin
     roles:
         - example_host
