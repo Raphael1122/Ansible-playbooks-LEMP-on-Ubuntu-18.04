@@ -4,10 +4,7 @@
     hosts: site
     remote_user: raphaelcorbin
     tasks:
-        -   name: Update apt packages
-            apt:
-                update_cache: yes
-
+        
         -   name: Add Certbot repository
             apt_repository:
                 repo: 'ppa:certbot/certbot'
