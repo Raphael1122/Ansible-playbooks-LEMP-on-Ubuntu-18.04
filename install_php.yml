@@ -2,8 +2,8 @@
 
 -   name: Install php-fpm7.4
     hosts: all
-    sudo: yes
     remote_user: "{{remote_user}}"
+    sudo: yes
     tasks:
         -   name: Prepare install php-fpm 7.4
             apt:
