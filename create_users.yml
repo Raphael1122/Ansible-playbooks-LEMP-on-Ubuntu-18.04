@@ -1,8 +1,8 @@
 ---
 
 -   name: Create users
-    hosts: site
-    remote_user: root
+    hosts: all
+    remote_user: "{{remote_user}}"
     tasks:
         -   name: Add users
             user:
