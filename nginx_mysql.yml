@@ -1,6 +1,7 @@
 ---
 -   name: Create Nginx
     hosts: all
+    sudo: yes
     remote_user: "{{remote_user}}"
     tasks:
         -   name: Update apt packages
