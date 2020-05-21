@@ -1,7 +1,7 @@
 ---
 
 -   name: Create Certbot
-    hosts: all
+    hosts: site
     remote_user: root
     tasks:
         -   name: Update apt packages
