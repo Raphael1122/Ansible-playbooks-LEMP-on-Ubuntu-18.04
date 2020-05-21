@@ -2,8 +2,8 @@
 
 -   name: Create users
     hosts: all
-    sudo: yes
     remote_user: "{{remote_user}}"
+    sudo: yes
     tasks:
         -   name: Add users
             user:
