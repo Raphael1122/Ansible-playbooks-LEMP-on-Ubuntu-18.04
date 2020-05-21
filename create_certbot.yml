@@ -2,7 +2,7 @@
 
 -   name: Create Certbot
     hosts: all
-    remote_user: "{{remote_user}}"
+    remote_user: root
     tasks:
         -   name: Update apt packages
             apt:
