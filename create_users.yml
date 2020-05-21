@@ -2,7 +2,7 @@
 
 -   name: Create users
     hosts: all
-    remote_user: "{{remote_user}}"
+    remote_user: root
     tasks:
         -   name: Add users
             user:
