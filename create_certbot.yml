@@ -1,6 +1,6 @@
 ---
-
--   name: Create Certbot
+-   
+    name: Create Certbot
     hosts: all
     remote_user: "{{remote_user}}"
     sudo: yes
